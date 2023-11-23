@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [todo](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-with-grid-and-flexbox-im6If3TrNA)
 - Live Site URL: [Github Pages](https://jumiranda5.github.io/fm-3-column-card-component/)
 
 ## Author
