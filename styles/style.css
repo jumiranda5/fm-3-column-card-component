@@ -165,18 +165,32 @@ li {
     display: inline-block;
     width: 9.125rem;
     margin-top: 1.5rem;
-    line-height: 3rem;
+    line-height: 2.875rem;
     border-radius: 1.5rem;
+    border: .125em solid var(--light-gray-color);
+    background-color: var(--light-gray-color);
 
     text-decoration: none;
     text-align: center;
     font-size: var(--main-text-size);
-    background-color: var(--light-gray-color);
+
+    transition: .3s;
 }
 
 .card1 a { color: var(--card1-bg-color); }
 .card2 a { color: var(--card2-bg-color); }
 .card3 a { color: var(--card3-bg-color); }
+
+.card a:hover {
+    color: var(--light-gray-color);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card a:active {
+    color: var(--light-gray-color);
+    background-color: rgba(255, 255, 255, .3);
+}
+
 
 /* Desktop */
 
