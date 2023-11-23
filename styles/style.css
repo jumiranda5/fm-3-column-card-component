@@ -99,6 +99,7 @@ textarea, select {
 }
 
 body {
+    position: relative; 
     background: var(--main-bg-color);
     font-family: var(--main-font);
     font-size: var(--main-text-size);
